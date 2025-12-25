@@ -10,7 +10,7 @@ type UserProps = {
 }
 
 const UserComponent: React.FC<UserProps> = ({name}) => {
-  return <p>Hell, {name}</p>
+  return <p>Hello, {name}</p>
 } 
 
 const UserWithLoading = withLoading(UserComponent)

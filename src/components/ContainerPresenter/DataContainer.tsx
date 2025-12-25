@@ -16,7 +16,7 @@ export const DataContainer = () => {
   useEffect(() => {
     const fetchData = async() => {
       try {
-        const response = await fetch("data/data.json")
+        const response = await fetch("/data/data.json")
         if (!response.ok) {
           throw new Error("Error al cargar los datos")
         }
